@@ -5,6 +5,7 @@ import Pager from "../components/Pager";
 import ProjectCard from "../components/ProjectCard";
 import profile1 from "../src/assets/profile1.png";
 import Blogcard from "../components/Blogcard";
+import Totop from "../components/Totop";
 
 
 const Home = () => {
@@ -216,7 +217,7 @@ const Home = () => {
           ))}
         </div>
       </section>
-     
+      <Totop/>
       <footer className="bg-gray-900 text-center py-6 border-t border-gray-700">
         <p className="text-gray-500 text-sm">
           &copy; 2025 GreyLine Solutions. All rights reserved.
