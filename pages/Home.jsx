@@ -11,7 +11,8 @@ import Totop from "../components/Totop";
 const Home = () => {
   const blogs = [
     {
-      image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      image:
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbXB1dGVyJTIwbGFifGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600",
       title: "Building a Clean React UI with TailwindCSS",
       description:
         "Learn how to create stunning and responsive UIs faster using TailwindCSS with React.",
@@ -22,7 +23,8 @@ const Home = () => {
       link: "#",
     },
     {
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+      image:
+        "https://images.unsplash.com/photo-1657812160299-6b656decd5b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHNlb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
       title: "Optimizing SEO for Modern Web Apps",
       description:
         "A step-by-step guide on improving SEO rankings for your Vite and React apps.",
