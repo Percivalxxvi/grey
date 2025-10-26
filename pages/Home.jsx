@@ -3,7 +3,8 @@ import "../src/App.css";
 import Navpc from "../components/Navpc";
 import Pager from "../components/Pager";
 import ProjectCard from "../components/ProjectCard";
-import profile1 from "../src/assets/profile1.png";
+import profile2 from "../src/assets/profile2.png";
+import profile2f from "../src/assets/profile2f.png";
 import Blogcard from "../components/Blogcard";
 import Totop from "../components/Totop";
 
@@ -103,7 +104,7 @@ const Home = () => {
       <div className="h-10 lg:hidden flex"></div>
 
       {/* Hero */}
-      <div className="h-fit lg:h-100 lg:w-full w-full flex flex-col lg:flex-row lg:justify-center items-center justify-center bg-blue-500 bg-linear-to-t from-gray-800 to-purple-500">
+      <div className="h-fit lg:h-100 lg:w-full w-full flex flex-col lg:flex-row-reverse lg:justify-evenly items-center justify-center bg-blue-500 bg-linear-to-t from-gray-800 to-purple-500">
         <div className="flex flex-col lg:items-center lg:justify-center lg:h-100 p-5 rounded-lg w-fit">
           <h1 className="lg:text-5xl text-3xl font-bold text-white lg:text-left text-center lg:w-150 w-100">
             Welcome to GreyLine Solutions
@@ -113,7 +114,7 @@ const Home = () => {
         <div className="lg:w-100 lg:h-100 w-[75%] h-70 duration-500 flex lg:flex hover:shadow-6xl cursor-pointer lg:hover:ml-5 items-center justify-center">
           <img
             className="lg:w-lg lg:h-[98%] w-4/4 h-4/4 lg:hover:scale-102 duration-500 object-cover rounded-3xl"
-            src={profile1}
+            src={profile2}
             alt=""
           />
         </div>
@@ -153,7 +154,7 @@ const Home = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectCard
               title="School Website"
-              description="A full-featured school website built with React."
+              description="A full-featured school website built with React and Tailwind CSS."
               link="https://heroespinnacleschools.org/"
             />
             <ProjectCard
@@ -163,7 +164,7 @@ const Home = () => {
             />
             <ProjectCard
               title="Game Themed Website"
-              description="A full-featured game themed website built with React."
+              description="A multi-featured game themed website built with React."
               link="https://gameweb1.vercel.app/"
             />
           </div>
@@ -213,7 +214,7 @@ const Home = () => {
         className="flex flex-col items-center justify-center h-fit pt-2 pb-2 bg-linear-to-b from-gray-800 to-purple-500 lg:border-t-0"
       >
         <div className="text-3xl font-bold mb-2">BLOGS</div>
-        <div className="flex flex-wrap sm:grid-cols-2 md:grid-cols-3 lg:gap-4 gap-1.5 w-4/4 items-center justify-center pt-2 pb-2">
+        <div className="flex flex-wrap sm:grid-cols-2 md:grid-cols-3 lg:gap-4 gap-1 w-4/4 items-center justify-center pt-2 pb-2">
           {blogs.map((blog, index) => (
             <Blogcard key={index} {...blog} />
           ))}

@@ -5,10 +5,10 @@ const Blogcard = ({ image, title, description, author, date, link, content }) =>
   const navigate = useNavigate()
   return (
     <div
-      className="max-w-sm lg:bg-gray-300 bg-[#EDEDEDCC] lg:rounded-2xl rounded-lg lg:w-80 w-[49%] lg:h-100 h-fit pb-1 shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-500"
+      className="max-w-sm lg:bg-gray-300 bg-[#EDEDEDCC] lg:rounded-2xl rounded-lg lg:w-80 w-[49.4%] lg:h-100 h-fit pb-1 shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-500"
     >
       {/* Image */}
-      <div className="lg:h-48 h-25 w-full overflow-hidden">
+      <div className="lg:h-48 h-28 w-full overflow-hidden">
         <img
           src={image}
           alt={title}
@@ -22,7 +22,7 @@ const Blogcard = ({ image, title, description, author, date, link, content }) =>
           <h3 className="lg:text-lg text-md font-semibold text-left text-gray-800 lg:mb-2 mb-0.6 line-clamp-2">
             {title}
           </h3>
-          <p className="text-gray-900 lg:text-black text-sm line-clamp-3 h-15 text-left">
+          <p className="text-gray-900 lg:text-black text-sm line-clamp-3 h-14 text-left">
             {description}
           </p>
         </div>
