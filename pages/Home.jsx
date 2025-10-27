@@ -114,7 +114,7 @@ const Home = () => {
         <div className="lg:w-100 lg:h-100 w-[75%] h-70 duration-500 flex lg:flex hover:shadow-6xl cursor-pointer lg:hover:ml-5 items-center justify-center">
           <img
             className="lg:w-lg lg:h-[98%] w-4/4 h-4/4 lg:hover:scale-102 duration-500 object-cover rounded-3xl"
-            src={profile2}
+            src="https://ik.imagekit.io/percival26/profile2.png?updatedAt=1761569999017"
             alt=""
           />
         </div>
@@ -125,9 +125,8 @@ const Home = () => {
         <h2 className="text-3xl lg:text-4xl font-extrabold mb-4 w-80 lg:w-150 text-center">
           Hello, I'm Joshua Oladeji 👋
         </h2>
-        <p className="text-xl text-gray-400 mb-6">
-          Front-end Developer • Open Source Enthusiast
-        </p>
+        <p className="text-xl text-gray-400 mb-1">Front-end Developer</p>
+        <p className="text-xl text-gray-400 mb-4">Open Source Enthusiast</p>
         <a
           href="#projects"
           className="inline-block bg-purple-500 text-black px-6 py-3 border rounded hover:bg-linear-to-r from-gray-900 to-purple-600 transition hover:text-white active:bg-black active:text-white hover:border hover:border-gray-400"
@@ -136,22 +135,23 @@ const Home = () => {
         </a>
       </section>
       {/* About */}
-      <section id="about"
+      <section
+        id="about"
         className="flex flex-col max-w-8xl px-6 py-16 lg:h-40 h-55 bg-linear-to-tl from-black to-purple-500 justify-center items-center"
       >
-        <h3 className="text-3xl font-bold mb-6 lg:w-5xl text-left w-[90%]">
+        <h3 className="text-3xl font-bold mb-2 lg:w-5xl text-left w-[95%]">
           About Me
         </h3>
-        <p className="text-gray-100 text-lg lg:w-5xl w-[90%]">
+        <p className="text-gray-100 text-lg lg:w-5xl w-[95%]">
           I'm a front-end developer with experience building scalable web apps.
           I enjoy clean code and creative problem-solving.
         </p>
       </section>
       {/* Projects */}
-      <section id="projects" className="bg-gray-900 py-16">
+      <section id="projects" className="bg-gray-900 py-10">
         <div className="max-w-6xl mx-auto px-6">
-          <h3 className="text-3xl font-bold mb-10">Projects</h3>
-          <div className="grid md:grid-cols-2 gap-8">
+          <h3 className="text-3xl font-bold lg:mb-10 mb-5">Projects</h3>
+          <div className="grid md:grid-cols-2 lg:gap-8 gap-4">
             <ProjectCard
               title="School Website"
               description="A full-featured school website built with React and Tailwind CSS."
@@ -171,19 +171,24 @@ const Home = () => {
         </div>
       </section>
       {/* Skills */}
-      <section id="skills" className="max-w-4xl mx-auto px-6 py-16">
+      <section id="skills" className="max-w-4xl mx-auto px-4 lg:py-16 py-10">
         <h3 className="text-3xl font-bold mb-6">Skills</h3>
         <div className="flex flex-wrap gap-4 text-gray-200">
-          {["JavaScript", "React", "Tailwind", "MongoDB", "Git"].map(
-            (skill) => (
-              <span
-                key={skill}
-                className="bg-gray-700 px-4 py-2 rounded border-2 border-gray-500"
-              >
-                {skill}
-              </span>
-            )
-          )}
+          {[
+            "JavaScript",
+            "React",
+            "Tailwind",
+            "MongoDB",
+            "Github",
+            "Python",
+          ].map((skill) => (
+            <span
+              key={skill}
+              className="bg-gray-700 px-3 py-2 rounded border-2 border-gray-500"
+            >
+              {skill}
+            </span>
+          ))}
         </div>
       </section>
       {/* Contact */}
@@ -210,7 +215,8 @@ const Home = () => {
         </div>
       </section>
       {/* Blog */}
-      <section id="blog"
+      <section
+        id="blog"
         className="flex flex-col items-center justify-center h-fit pt-2 pb-2 bg-linear-to-b from-gray-800 to-purple-500 lg:border-t-0"
       >
         <div className="text-3xl font-bold mb-2">BLOGS</div>
@@ -220,7 +226,7 @@ const Home = () => {
           ))}
         </div>
       </section>
-      <Totop/>
+      <Totop />
       <footer className="bg-gray-900 text-center py-6 border-t border-gray-700">
         <p className="text-gray-500 text-sm">
           &copy; 2025 GreyLine Solutions. All rights reserved.
