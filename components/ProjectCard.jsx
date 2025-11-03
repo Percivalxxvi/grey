@@ -4,7 +4,7 @@ const ProjectCard = ({ title, description, link }) => {
   return (
     <div className="bg-gray-700 rounded-lg p-4 shadow hover:shadow-lg transition">
       <h4 className="text-xl font-semibold mb-2">{title}</h4>
-      <p className="text-gray-300 mb-4">{description}</p>
+      <p className="text-gray-300 h-15">{description}</p>
       <a href={link} className="text-indigo-400 hover:underline text-right">View Project →</a>
     </div>
   );

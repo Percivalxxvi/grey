@@ -167,6 +167,11 @@ const Home = () => {
               description="A multi-featured game themed website built with React."
               link="https://gameweb1.vercel.app/"
             />
+            <ProjectCard
+              title="Hair Styling Business Website"
+              description="A multi-featured hair themed business website built with React and Tailwind CSS."
+              link="https://barberweb1.vercel.app/"
+            />
           </div>
         </div>
       </section>
@@ -177,7 +182,7 @@ const Home = () => {
           {[
             "JavaScript",
             "React",
-            "Tailwind",
+            "Tailwind CSS",
             "MongoDB",
             "Github",
             "Python",
