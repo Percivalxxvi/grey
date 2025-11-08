@@ -153,6 +153,11 @@ const Home = () => {
           <h3 className="text-3xl font-bold lg:mb-10 mb-5">Projects</h3>
           <div className="grid md:grid-cols-2 lg:gap-8 gap-4">
             <ProjectCard
+              title="Ecommerce Website"
+              description="A multi-featured hair e-commerce website built with React and Tailwind CSS."
+              link="https://kwikshopper.vercel.app/"
+            />
+            <ProjectCard
               title="School Website"
               description="A full-featured school website built with React and Tailwind CSS."
               link="https://heroespinnacleschools.org/"
