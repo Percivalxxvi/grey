@@ -114,7 +114,7 @@ const Home = () => {
         <div className="lg:w-100 lg:h-100 w-[75%] h-70 duration-500 flex lg:flex hover:shadow-6xl cursor-pointer lg:hover:ml-5 items-center justify-center">
           <img
             className="lg:w-lg lg:h-[98%] w-4/4 h-4/4 lg:hover:scale-102 duration-500 object-cover rounded-3xl"
-            src="https://ik.imagekit.io/percival26/profile2.png?updatedAt=1761569999017"
+            src="https://ik.imagekit.io/percival26/edited%20photo2.1.2.PNG?updatedAt=1762963287116"
             alt=""
           />
         </div>
