@@ -24,7 +24,7 @@ const Totop = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-6 right-6 h-15 w-15 flex items-center justify-center rounded-lg shadow-lg bg-purple-500 text-white hover:bg-purple-600 hover:cursor-pointer active:bg-purple-700 transition-all duration-300 border ${
+      className={`fixed bottom-6 right-6 h-12 w-12 flex items-center justify-center rounded-full shadow-lg bg-gray-900 text-white hover:bg-gray-700 hover:cursor-pointer active:bg-purple-700 transition-all duration-300 border ${
         isVisible ? "opacity-100 scale-100" : "opacity-0 scale-0"
       }`}
       aria-label="Back to top"

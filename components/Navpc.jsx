@@ -39,19 +39,26 @@ const Navpc = ({ page }) => {
             >
               Contact
             </a>
-            <a
+            {/* <a
               href="#blog"
               style={{ display: page === "blogpage" ? "none" : "flex" }}
               className="font-bold text-gray-400 hover:text-white text-2xl"
             >
               Blog
-            </a>
-            <a
+            </a> */}
+               <a
               href="/"
               style={{ display: page === "blogpage" ? "flex" : "none" }}
               className="font-bold text-gray-400 hover:text-white text-2xl"
             >
               Home
+            </a>
+            <a
+              href="/blogs"
+              style={{ display: page === "blogpage" ? "" : "" }}
+              className="font-bold text-gray-400 hover:text-white text-2xl"
+            >
+              Blogs
             </a>
           </nav>
         </div>
