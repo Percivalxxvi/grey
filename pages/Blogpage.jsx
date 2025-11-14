@@ -6,6 +6,25 @@ import Navpc from "../components/Navpc";
 const BlogPage = () => {
   return (
     <section className="relative min-h-screen flex flex-col bg-linear-to-b from-gray-950 via-gray-900 to-gray-950 text-gray-100 overflow-hidden">
+      <header className="bg-gray-800 p-3 shadow-md lg:hidden fixed top-0 w-full z-999 border-b-2 border-grey-0">
+        <div className="max-w-7xl mx-auto flex justify-center items-center">
+          {/* <h1 className="text-2xl font-bold">GreyLine Solutions</h1> */}
+          <nav className="space-x-4 text-right w-full">
+            <a
+              href="/"
+              className="hover:text-indigo-400 active:text-indigo-400 transition-colors duration-300"
+            >
+              Home
+            </a>
+            <a
+              href="/blogs"
+              className="hover:text-indigo-400 active:text-indigo-400 transition-colors duration-300"
+            >
+              Blog
+            </a>
+          </nav>
+        </div>
+      </header>
       {/* Background Glow Effects */}
       <div className="absolute top-10 left-10 w-40 h-40 bg-purple-500/10 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-20 right-20 w-56 h-56 bg-pink-500/10 rounded-full blur-3xl animate-pulse delay-200" />
