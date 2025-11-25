@@ -65,11 +65,11 @@ const Appage = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(88,28,135,0.25),transparent_80%)]" />
 
         {/* Image Section */}
-        <div className="relative z-10 flex justify-center items-center lg:w-[45%] w-full h-[350px] lg:h-[500px] transition-transform duration-700 hover:scale-[1.03]">
+        <div className="relative z-10 flex justify-center items-center lg:w-[45%] w-full h-[350px] lg:h-[500px] transition-transform duration-700">
           <img
             src="https://ik.imagekit.io/percival26/edited%20photo2.1.2.PNG?updatedAt=1762963287116"
             alt="GreyLine Solutions"
-            className="w-full h-full object-cover rounded-3xl shadow-lg shadow-indigo-800/40"
+            className="w-full h-full object-cover rounded-xl shadow-lg shadow-indigo-800/40"
           />
         </div>
 
