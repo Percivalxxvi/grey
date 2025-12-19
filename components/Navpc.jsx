@@ -4,8 +4,8 @@ const Navpc = ({ page }) => {
   return (
     <div className="lg:flex hidden z-999 h-25 justify-between bg-gray-800 sticky top-0 w-full items-center border-b-4 border-grey-0">
       <div className="flex flex-col ml-35">
-        <div className="flex-1 text-6xl font-bold text-grey-0">GreyLine</div>
-        <h1 className="text-2xl font-bold text-grey-0">Solutions</h1>
+        <div className="flex-1 text-6xl font-bold text-grey-0">AOD</div>
+        <h1 className="text-2xl font-bold text-grey-0">Interactive</h1>
       </div>
       <header className="p-6 shadow-md mr-40">
         <div className="flex">
@@ -55,7 +55,7 @@ const Navpc = ({ page }) => {
             </a>
             <a
               href="/blogs"
-              style={{ display: page === "blogpage" ? "" : "" }}
+              style={{ display: page === "blogpage" ? "none" : "flex" }}
               className="font-bold text-gray-400 hover:text-white text-2xl"
             >
               Blogs

@@ -76,7 +76,7 @@ const Appage = () => {
         {/* Text Section */}
         <div className="relative z-10 flex flex-col text-center lg:text-left lg:w-[45%] mt-10 lg:mt-0 space-y-6">
           <h1 className="text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-purple-500 drop-shadow-[0_0_15px_rgba(139,92,246,0.4)]">
-            Welcome to <br /> GreyLine Solutions
+            Welcome to <br /> AOD Interactive
           </h1>
 
           <p className="text-lg text-gray-400 leading-relaxed max-w-md mx-auto lg:mx-0">
@@ -212,6 +212,16 @@ const Appage = () => {
               title="Hair Styling Business Website"
               description="A multi-featured hair themed business website built with React and Tailwind CSS."
               link="https://barberweb1.vercel.app/"
+            />
+            <ProjectCard
+              title="Christian Outreach Website"
+              description="A multi-featured Christian outreach website built with React and Tailwind CSS."
+              link="https://revival1.vercel.app/"
+            />
+            <ProjectCard
+              title="Creative Writer Website"
+              description="A multi-featured Creative writing website built with React and Tailwind CSS."
+              link="https://olamifeng.vercel.app/"
             />
           </div>
         </div>
