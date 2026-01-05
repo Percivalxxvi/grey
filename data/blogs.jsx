@@ -27,7 +27,8 @@ export const blogs = [
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    image:
+      "https://apkbeasts.com/wp-content/uploads/2023/12/1_UIBHeQz1FWslT7fJ3HatxA-1260x710.jpg",
     title: "Mastering Component Reusability in React",
     description:
       "Learn the best patterns to create reusable, maintainable React components.",
@@ -39,50 +40,51 @@ export const blogs = [
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    image:
+      "https://www.manchesterdigital.com/storage/10104/What-is-API-and-API-Integration-Manc-Digital-feat.png",
     title: "Integrating APIs with Next.js",
     description:
       "A step-by-step guide on connecting and fetching APIs efficiently in Next.js.",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, leo sit amet semper pretium...",
+      "Integrating APIs with Next.js allows developers to fetch and manage data efficiently while building fast and dynamic web applications. Next.js supports API integration through built-in data fetching methods and API routes, making it easy to connect external services or backend systems. This approach improves performance, enhances user experience, and enables developers to build scalable, full-stack applications with ease. Next.js provides several methods for fetching data from APIs, including getStaticProps, getServerSideProps, and client-side fetching using libraries like SWR or React Query. These methods allow developers to choose the best approach based on their application's needs, whether it's static generation, server-side rendering, or dynamic client-side updates. Additionally, Next.js allows developers to create custom API routes within the application itself, enabling seamless integration with backend logic and services. By leveraging these features, developers can build robust applications that efficiently handle data fetching and state management. By integrating APIs, developers can build interactive applications that handle real-time data, user authentication, and server-side operations. This approach improves performance, enhances user experience, and supports scalability, making Next.js an excellent choice for building modern, full-stack web applications.",
     author: "Joshua Oladeji",
-    date: "Oct 25, 2025",
+    date: "Jan 5, 2026",
     link: "#",
   },
-  {
-    id: 5,
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-    title: "Integrating APIs with Next.js",
-    description:
-      "A step-by-step guide on connecting and fetching APIs efficiently in Next.js.",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, leo sit amet semper pretium...",
-    author: "Joshua Oladeji",
-    date: "Oct 25, 2025",
-    link: "#",
-  },
-  {
-    id: 6,
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-    title: "Integrating APIs with Next.js",
-    description:
-      "A step-by-step guide on connecting and fetching APIs efficiently in Next.js.",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, leo sit amet semper pretium...",
-    author: "Joshua Oladeji",
-    date: "Oct 25, 2025",
-    link: "#",
-  },
-  {
-    id: 7,
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-    title: "Integrating APIs with Next.js",
-    description:
-      "A step-by-step guide on connecting and fetching APIs efficiently in Next.js.",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, leo sit amet semper pretium...",
-    author: "Joshua Oladeji",
-    date: "Oct 25, 2025",
-    link: "#",
-  },
+  // {
+  //   id: 5,
+  //   image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+  //   title: "Integrating APIs with Next.js",
+  //   description:
+  //     "A step-by-step guide on connecting and fetching APIs efficiently in Next.js.",
+  //   content:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, leo sit amet semper pretium...",
+  //   author: "Joshua Oladeji",
+  //   date: "Oct 25, 2025",
+  //   link: "#",
+  // },
+  // {
+  //   id: 6,
+  //   image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+  //   title: "Integrating APIs with Next.js",
+  //   description:
+  //     "A step-by-step guide on connecting and fetching APIs efficiently in Next.js.",
+  //   content:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, leo sit amet semper pretium...",
+  //   author: "Joshua Oladeji",
+  //   date: "Oct 25, 2025",
+  //   link: "#",
+  // },
+  // {
+  //   id: 7,
+  //   image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+  //   title: "Integrating APIs with Next.js",
+  //   description:
+  //     "A step-by-step guide on connecting and fetching APIs efficiently in Next.js.",
+  //   content:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, leo sit amet semper pretium...",
+  //   author: "Joshua Oladeji",
+  //   date: "Oct 25, 2025",
+  //   link: "#",
+  // },
 ];
