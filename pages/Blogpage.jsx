@@ -8,9 +8,9 @@ const BlogPage = () => {
   return (
     <section className="relative min-h-screen flex flex-col bg-linear-to-b from-gray-950 via-gray-900 to-gray-950 text-gray-100 overflow-hidden">
       <header className="bg-gray-800 p-3 shadow-md lg:hidden fixed top-0 w-full z-999 border-b-2 border-grey-0">
-        <div className="max-w-7xl mx-auto flex justify-center items-center">
-          {/* <h1 className="text-2xl font-bold">GreyLine Solutions</h1> */}
-          <nav className="space-x-4 text-right w-full">
+        <div className="max-w-7xl mx-auto flex justify-between items-center">
+          <h1 className="text-2xl font-bold">AOD Interactive</h1>
+          <nav className="space-x-4 text-right">
             <a
               href="/"
               className="hover:text-indigo-400 active:text-indigo-400 transition-colors duration-300"

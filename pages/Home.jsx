@@ -22,7 +22,8 @@ const Appage = () => {
       {/* <Pager/> */}
 
       <header className="bg-gray-800 p-3 shadow-md lg:hidden fixed top-0 w-full z-999 border-b-2 border-gray-0">
-        <div className="max-w-7xl mx-auto flex justify-center items-center">
+        <div className="max-w-7xl mx-auto flex flex-col justify-center items-center">
+          <h1 className="text-2xl font-bold lg:hidden">AOD Interactive</h1>
           {/* <h1 className="text-2xl font-bold">GreyLine Solutions</h1> */}
           <nav className="space-x-4">
             <a
