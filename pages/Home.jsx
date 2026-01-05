@@ -6,6 +6,7 @@ import Totop from "../components/Totop";
 const Appage = () => {
   const colors = ["blue", "violet", "yellow"];
   const [index, setIndex] = useState(0);
+  const year = new Date().getFullYear();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -285,7 +286,7 @@ const Appage = () => {
       <Totop />
       <footer className="bg-gray-900 text-center py-6 border-t border-gray-700">
         <p className="text-gray-500 text-sm">
-          &copy; 2025 GreyLine Solutions. All rights reserved.
+          &copy; {year} GreyLine Solutions. All rights reserved.
         </p>
       </footer>
     </div>

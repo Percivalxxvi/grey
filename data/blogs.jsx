@@ -9,7 +9,7 @@ export const blogs = [
     content:
       "Designing beautiful and responsive user interfaces doesn’t have to be complicated. With Tailwind CSS and React, you can build modern, elegant, and highly responsive web applications — all while writing less code and working more efficiently. Tailwind CSS is a utility-first CSS framework that lets you style elements directly in your markup using simple class names. Instead of writing lengthy custom CSS, you combine pre-defined utility classes to create unique, responsive designs — faster than ever. React’s component-based structure pairs perfectly with Tailwind’s modular styling. Together, they allow you to build reusable UI components with clean and maintainable code. You can focus more on functionality and user experience, and less on repetitive CSS. In today’s fast-paced web development world, speed and design consistency are key. Tailwind CSS helps developers achieve pixel-perfect designs without spending hours tweaking CSS files. When used with React, you get the best of both worlds — powerful interactivity and seamless styling control. Whether you’re building a portfolio site, an e-commerce app, or a dashboard, learning how to use Tailwind CSS with React will dramatically boost your productivity and creativity. Create visually stunning, mobile-friendly, and scalable interfaces — faster and smarter.",
     author: "Joshua Oladeji",
-    date: "Oct 22, 2025",
+    date: "Jan 4, 2026",
     link: "#",
   },
   {
@@ -20,9 +20,9 @@ export const blogs = [
     description:
       "A step-by-step guide on improving SEO rankings for your Vite and React apps.",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dictum, leo sit amet semper pretium...",
-    author: "Jane Doe",
-    date: "Oct 20, 2025",
+      "Search Engine Optimization (SEO) is the process of making a website easier to find on search engines like Google. It helps your website appear when people search for related topics. SEO involves using the right keywords, creating helpful content, and improving how your website works. When done correctly, SEO brings more visitors to your site and helps your online presence grow naturally. SEO involves using the right keywords, creating useful and relevant content, and ensuring your website loads fast and works well on all devices.It also focuses on making your site easy to navigate for both users and search engines.When SEO is done properly, it increases website visibility, attracts more visitors, and helps build trust and credibility online.",
+    author: "Joshua Oladeji",
+    date: "Jan 5, 2026",
     link: "#",
   },
   {
@@ -34,7 +34,7 @@ export const blogs = [
     content:
       "One of the greatest strengths of React lies in its component-based architecture, which encourages developers to build user interfaces as a collection of small, reusable pieces. Mastering component reusability not only improves code maintainability but also boosts productivity, scalability, and overall project quality. Component reusability refers to the practice of creating UI elements that can be used multiple times across different parts of an application without rewriting code. A reusable component is flexible, self-contained, and designed to handle varying data or behavior through props, children, and composition.",
     author: "Joshua Oladeji",
-    date: "Oct 22, 2025",
+    date: "Jan 5, 2026",
     link: "#",
   },
   {

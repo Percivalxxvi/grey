@@ -5,6 +5,7 @@ import { ArrowLeft } from "lucide-react";
 
 const BlogDetails = () => {
   const location = useLocation();
+  const year = new Date().getFullYear();
   const blog = location.state; // blog data from Link
 
   if (!blog) {
@@ -71,6 +72,11 @@ const BlogDetails = () => {
           <span>{blog.date}</span>
         </div>
       </div>
+      <footer className="bg-gray-900 text-center py-6 border-t border-gray-700">
+        <p className="text-gray-500 text-sm">
+          &copy; {year} GreyLine Solutions. All rights reserved.
+        </p>
+      </footer>
     </section>
   );
 };

@@ -4,6 +4,7 @@ import { blogs } from "../data/blogs";
 import Navpc from "../components/Navpc";
 
 const BlogPage = () => {
+  const year = new Date().getFullYear();
   return (
     <section className="relative min-h-screen flex flex-col bg-linear-to-b from-gray-950 via-gray-900 to-gray-950 text-gray-100 overflow-hidden">
       <header className="bg-gray-800 p-3 shadow-md lg:hidden fixed top-0 w-full z-999 border-b-2 border-grey-0">
@@ -48,6 +49,11 @@ const BlogPage = () => {
           <Blogcard key={blog.id} {...blog} />
         ))}
       </div>
+      <footer className="bg-gray-900 text-center py-6 border-t border-gray-700">
+        <p className="text-gray-500 text-sm">
+          &copy; {year} GreyLine Solutions. All rights reserved.
+        </p>
+      </footer>
     </section>
   );
 };
