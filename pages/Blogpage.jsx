@@ -17,12 +17,12 @@ const BlogPage = () => {
             >
               Home
             </a>
-            <a
+            {/* <a
               href="/blogs"
               className="hover:text-indigo-400 active:text-indigo-400 transition-colors duration-300"
             >
               Blog
-            </a>
+            </a> */}
           </nav>
         </div>
       </header>
@@ -51,7 +51,7 @@ const BlogPage = () => {
       </div>
       <footer className="bg-gray-900 text-center py-6 border-t border-gray-700">
         <p className="text-gray-500 text-sm">
-          &copy; {year} GreyLine Solutions. All rights reserved.
+          &copy; {year} AOD Interactive. All rights reserved.
         </p>
       </footer>
     </section>

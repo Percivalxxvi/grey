@@ -74,7 +74,7 @@ const BlogDetails = () => {
       </div>
       <footer className="bg-gray-900 text-center py-6 border-t border-gray-700">
         <p className="text-gray-500 text-sm">
-          &copy; {year} GreyLine Solutions. All rights reserved.
+          &copy; {year} AOD Interactive. All rights reserved.
         </p>
       </footer>
     </section>
