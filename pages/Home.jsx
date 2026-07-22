@@ -220,7 +220,8 @@ const Appage = () => {
             <ProjectCard
               title="Christian Outreach Website"
               description="A multi-featured Christian outreach website built with React and Tailwind CSS."
-              link="https://revival1.vercel.app/"
+              // link="https://revival1.vercel.app/"
+              link="https://revivalnetworkcommission1.vercel.app/"
             />
             <ProjectCard
               title="Creative Writer Website"
