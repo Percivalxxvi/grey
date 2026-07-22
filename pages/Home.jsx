@@ -62,16 +62,17 @@ const Appage = () => {
       <div className="h-10 lg:hidden flex"></div>
 
       {/* Hero */}
-      <div className="relative flex flex-col lg:flex-row-reverse items-center justify-between lg:justify-evenly w-full min-h-[90vh] overflow-hidden bg-linear-to-t from-black via-gray-950 to-gray-900 px-6 py-12">
+      <div className="relative flex flex-col lg:flex-row-reverse items-center justify-between lg:justify-evenly w-full min-h-[90vh] overflow-hidden bg-linear-to-t from-black via-gray-950 to-gray-900 px-6 lg:px-20 py-15">
         {/* Deep glow background */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(88,28,135,0.25),transparent_80%)]" />
 
         {/* Image Section */}
         <div className="relative z-10 flex justify-center items-center lg:w-[45%] w-full h-[350px] lg:h-[500px] transition-transform duration-700">
           <img
-            src="https://ik.imagekit.io/percival26/edited%20photo2.1.2.PNG?updatedAt=1762963287116"
+            // src="https://ik.imagekit.io/percival26/Portfolio%20pics/ChatGPT%20Image%20Jul%2022,%202026,%2011_51_07%20AM.png"
+            src="https://ik.imagekit.io/percival26/Portfolio%20pics/ChatGPT%20Image%20Jul%2022,%202026,%2011_49_05%20AM.png"
             alt="GreyLine Solutions"
-            className="w-full h-full object-cover rounded-xl shadow-lg shadow-indigo-800/40"
+            className="lg:w-full lg:h-full h-5/6 w-5/6 object-cover lg:scale-100 scale-110 rounded-xl shadow-lg shadow-indigo-800/40"
           />
         </div>
 
@@ -198,7 +199,8 @@ const Appage = () => {
             <ProjectCard
               title="School Website"
               description="A full-featured school website built with React and Tailwind CSS."
-              link="https://heroespinnacleschools.org/"
+              // link="https://heroespinnacleschools.org/"
+              link="https://heroespinnacleschools.vercel.app/"
             />
             <ProjectCard
               title="Recipe Website"
